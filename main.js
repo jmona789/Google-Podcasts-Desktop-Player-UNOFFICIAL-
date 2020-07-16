@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+const url = "https://podcasts.google.com/"
 
 function createWindow () {
 	// Create the browser window.
@@ -10,11 +11,11 @@ function createWindow () {
 		}
 	})
 
-	// and load the index.html of the app.
-	win.loadFile('index.html')
+	// and load the Google Podcast Site
+	win.loadURL(url)
 
 	// Open the DevTools.
-	// win.webContents.openDevTools()
+	//win.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
