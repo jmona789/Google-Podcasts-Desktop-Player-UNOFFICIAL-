@@ -12,8 +12,8 @@ function createWindow () {
 	})
 
 	// and load the Google Podcast Site
-	win.loadURL(url)
-
+	// win.loadURL()
+	win.loadURL(url, {userAgent: 'Chrome'})
 	// Open the DevTools.
 	//win.webContents.openDevTools()
 }
