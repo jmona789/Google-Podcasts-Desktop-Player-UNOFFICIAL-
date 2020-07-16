@@ -1,27 +1,30 @@
 {
-  "name": "google-podcasts-desktop-player-unofficial",
-  "version": "1.0.0",
-  "description": "Electron Desktop App for Google Podcasts (UNOFFICIAL)",
-  "main": "main.js",
-  "scripts": {
-    "test": "",
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git"
-  },
-  "keywords": [
-    "google",
-    "podcasts",
-    "desktop",
-    "player",
-    "unofficial"
-  ],
-  "author": "James Mona",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-/issues"
-  },
-  "homepage": "https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-#readme"
+	"name": "google-podcasts-desktop-player-unofficial",
+	"version": "1.0.0",
+	"description": "Electron Desktop App for Google Podcasts (UNOFFICIAL)",
+	"main": "main.js",
+	"scripts": {
+		"test": "",
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git"
+	},
+	"keywords": [
+		"google",
+		"podcasts",
+		"desktop",
+		"player",
+		"unofficial"
+	],
+	"author": "James Mona",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-/issues"
+	},
+	"homepage": "https://github.com/jmona789/Google-Play-Music-Desktop-Player-UNOFFICIAL-#readme",
+	"devDependencies": {
+		"electron": "^9.1.0"
+	}
 }
